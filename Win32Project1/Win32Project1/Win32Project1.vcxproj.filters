@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="框架">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="框架\输出">
+      <UniqueIdentifier>{9a72c143-3c59-4ad9-b11f-334637456608}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="框架\输入">
+      <UniqueIdentifier>{d2e4ec3e-6636-4133-a29d-2f3c2b667471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="框架\场景">
+      <UniqueIdentifier>{2981131e-eb73-4aca-8d91-39169aab1190}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="框架\场景\按钮">
+      <UniqueIdentifier>{7a474010-b7f2-4e6f-b7f2-791ad7809f4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="框架\音乐">
+      <UniqueIdentifier>{8c96305c-6d94-4df6-a9c1-d7bf562192ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="内容">
+      <UniqueIdentifier>{e2bee3e4-b69b-4801-8b49-96edf13d1345}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="内容\MANU">
+      <UniqueIdentifier>{72eb1b1a-4c33-489c-9f51-4e3f5b6150d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="内容\GAME">
+      <UniqueIdentifier>{b01902d8-b2b0-4af6-9eb8-37401dfc1388}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="内容\GAME\Background">
+      <UniqueIdentifier>{da023a6a-ed4d-41af-974e-2782d05f7812}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="内容\GAME\IMovable">
+      <UniqueIdentifier>{160f64ac-3717-4495-a6b4-053e5925cf0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="内容\GAME\IMovable\管理器">
+      <UniqueIdentifier>{b5525ec0-8e2f-4ba5-bfc4-5b61929b46ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="内容\GAME\IMovable\障碍物">
+      <UniqueIdentifier>{c4bc3be2-b6cf-40b9-b0c6-a72bbd675ed9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="内容\GAME\IMovable\障碍物\Obstacle1">
+      <UniqueIdentifier>{915cab6e-c7ee-4fde-b4d2-f33be0c6aab5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="内容\GAME\IMovable\Role">
+      <UniqueIdentifier>{ddd10de6-091a-467e-8f8c-21567c9793bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="内容\GAME\Strategy">
+      <UniqueIdentifier>{6c6c0b48-c0ec-4f1a-98a4-8d1396630dc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="内容\HELP">
+      <UniqueIdentifier>{8eb45081-ac01-42ac-8b45-10d7e89a3e7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="内容\GAME\IMovable\障碍物\Obstacle2">
+      <UniqueIdentifier>{37fcf275-c811-4c10-9560-7ae055651c84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="内容\GAME\IMovable\障碍物\Obstacle3">
+      <UniqueIdentifier>{9c9ca9d2-cfe7-48a7-91bb-09975a28fcec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameFrame.cpp">
+      <Filter>框架</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>框架\场景</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOutput.cpp">
+      <Filter>框架\输出</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>框架\场景\按钮</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>框架\场景\按钮</Filter>
+    </ClCompile>
+    <ClCompile Include="GameInput.cpp">
+      <Filter>框架\输入</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sound\SoundManage.cpp">
+      <Filter>框架\音乐</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>内容\MANU</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>内容\GAME</Filter>
+    </ClCompile>
+    <ClCompile Include="cImg.cpp">
+      <Filter>框架\输出</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>内容\GAME\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="Obstacle.cpp">
+      <Filter>内容\GAME\IMovable\障碍物</Filter>
+    </ClCompile>
+    <ClCompile Include="Obstacle1.cpp">
+      <Filter>内容\GAME\IMovable\障碍物\Obstacle1</Filter>
+    </ClCompile>
+    <ClCompile Include="ImovableMgr.cpp">
+      <Filter>内容\GAME\IMovable\管理器</Filter>
+    </ClCompile>
+    <ClCompile Include="ObstacleMgr.cpp">
+      <Filter>内容\GAME\IMovable\管理器</Filter>
+    </ClCompile>
+    <ClCompile Include="Imovable.cpp">
+      <Filter>内容\GAME\IMovable</Filter>
+    </ClCompile>
+    <ClCompile Include="Role.cpp">
+      <Filter>内容\GAME\IMovable\Role</Filter>
+    </ClCompile>
+    <ClCompile Include="Strategy.cpp">
+      <Filter>内容\GAME\Strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="Help.cpp">
+      <Filter>内容\HELP</Filter>
+    </ClCompile>
+    <ClCompile Include="Obstacle2.cpp">
+      <Filter>内容\GAME\IMovable\障碍物\Obstacle2</Filter>
+    </ClCompile>
+    <ClCompile Include="Obstacle3.cpp">
+      <Filter>内容\GAME\IMovable\障碍物\Obstacle3</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameFrame.h">
+      <Filter>框架</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOutput.h">
+      <Filter>框架\输出</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>框架\场景</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>框架\场景\按钮</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>框架\场景\按钮</Filter>
+    </ClInclude>
+    <ClInclude Include="GameInput.h">
+      <Filter>框架\输入</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicData.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sound\SoundManage.h">
+      <Filter>框架\音乐</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>内容\MANU</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>内容\GAME</Filter>
+    </ClInclude>
+    <ClInclude Include="cImg.h">
+      <Filter>框架\输出</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>内容\GAME\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="Obstacle.h">
+      <Filter>内容\GAME\IMovable\障碍物</Filter>
+    </ClInclude>
+    <ClInclude Include="Obstacle1.h">
+      <Filter>内容\GAME\IMovable\障碍物\Obstacle1</Filter>
+    </ClInclude>
+    <ClInclude Include="ImovableMgr.h">
+      <Filter>内容\GAME\IMovable\管理器</Filter>
+    </ClInclude>
+    <ClInclude Include="ObstacleMgr.h">
+      <Filter>内容\GAME\IMovable\管理器</Filter>
+    </ClInclude>
+    <ClInclude Include="Imovable.h">
+      <Filter>内容\GAME\IMovable</Filter>
+    </ClInclude>
+    <ClInclude Include="Role.h">
+      <Filter>内容\GAME\IMovable\Role</Filter>
+    </ClInclude>
+    <ClInclude Include="Strategy.h">
+      <Filter>内容\GAME\Strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="Help.h">
+      <Filter>内容\HELP</Filter>
+    </ClInclude>
+    <ClInclude Include="Obstacle2.h">
+      <Filter>内容\GAME\IMovable\障碍物\Obstacle2</Filter>
+    </ClInclude>
+    <ClInclude Include="Obstacle3.h">
+      <Filter>内容\GAME\IMovable\障碍物\Obstacle3</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

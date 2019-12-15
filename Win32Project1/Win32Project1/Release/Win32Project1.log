@@ -1,0 +1,36 @@
+﻿生成启动时间为 2016/1/6 0:21:17。
+     1>项目“D:\编程\工程\作品2\Img版模板\Win32Project1\Win32Project1\Win32Project1.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         D:\编程\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\编程\工程\作品2\Img版模板\Win32Project1\Release\Win32Project1.exe" /INCREMENTAL:NO /NOLOGO cximagecrtu.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\编程\工程\作品2\Img版模板\Win32Project1\Release\Win32Project1.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\编程\工程\作品2\Img版模板\Win32Project1\Release\Win32Project1.lib" /MACHINE:X86 /SAFESEH Release\Background.obj
+         Release\BasicData.obj
+         Release\Button.obj
+         Release\cImg.obj
+         Release\Game.obj
+         Release\GameInput.obj
+         Release\GameOutput.obj
+         Release\GameFrame.obj
+         Release\Help.obj
+         Release\Imovable.obj
+         Release\ImovableMgr.obj
+         Release\Main.obj
+         Release\Menu.obj
+         Release\Obstacle.obj
+         Release\Obstacle1.obj
+         Release\Obstacle2.obj
+         Release\Obstacle3.obj
+         Release\ObstacleMgr.obj
+         Release\Role.obj
+         Release\Scene.obj
+         Release\SoundManage.obj
+         Release\Strategy.obj
+         Release\UI.obj
+         正在生成代码
+     1>d:\编程\工程\作品2\img版模板\win32project1\win32project1\scene.cpp(44): warning C4715: “Scene::ReleaseUI”: 不是所有的控件路径都返回值
+     1>d:\编程\工程\作品2\img版模板\win32project1\win32project1\scene.cpp(35): warning C4715: “Scene::LoadUI”: 不是所有的控件路径都返回值
+         已完成代码的生成
+         Win32Project1.vcxproj -> D:\编程\工程\作品2\Img版模板\Win32Project1\Release\Win32Project1.exe
+     1>已完成生成项目“D:\编程\工程\作品2\Img版模板\Win32Project1\Win32Project1\Win32Project1.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.38
